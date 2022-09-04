@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- bài 3: Tính thuế thu nhập cá nhân  -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header">Thuế thu nhập cá nhân</div>
+          <div class="card-body">
+            <div class="form-group">
+              <input type="text" name="" id="ten" placeholder="Nhập tên">
+              <input type="number" name="" id="tn" placeholder="Nhập thu nhập">
+              <input type="number" name="" id="songuoi" placeholder="số người phụ thuộc">
+            </div>
+            <button class="btn btn-success" id="btnkq">
+              Kết quả
+            </button>
+          </div>
+          <div id="showInfokq" class="card-footer text-muted"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- bài 4: Tính tiền cap  -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header">Thuế thu nhập cá nhân</div>
+          <div class="card-body">
+            <div class="form-group">
+              <select name="" id="loaikh" onchange="myFunction()">
+                <option value="1" selected>Chọn loại khách hàng</option>
+                <option value="2">Nhà dân</option>
+                <option value="3">Doanh nghiệp</option>
+              </select>
+              <input type="text" name="" id="mkh" placeholder="nhập mã khách hàng">
+              <input type="text" name="" id="sokenh" placeholder="số kênh cao cấp">
+            </div>
+            <div style="display: none;" id="nd">
+              <input type="text" name="" id="sokn" placeholder="số kết nối">
+            </div>
+            <button class="btn btn-success" id="btnkq4">
+              Kết quả
+            </button>
+          </div>
+          <div id="showInfokq4" class="card-footer text-muted"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./3.js"></script>
+  <script src="./4.js"></script>
+</body>
+
+</html>
